@@ -1,0 +1,7 @@
+config:
+  experiment_name: "horse_in_mud"
+  init_img: ""
+  prompt: "a photo of a horse in mud"
+  scale: 5.0
+  ddim_steps: 50
+  seed: 50

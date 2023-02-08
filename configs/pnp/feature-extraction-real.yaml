@@ -1,0 +1,5 @@
+config:
+  experiment_name: "real_horse"
+  init_img: "data/horse.png"
+  ddim_steps: 999 # we use 999 steps for the best reconstruction
+  save_feature_timesteps: 50

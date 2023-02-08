@@ -1,0 +1,9 @@
+config:
+  experiment_name: "pca_horse"
+  block: "output_block_4" # the module name of the visualized features (e.g. "output_block_4", "input_block_7").
+  experiments_fit: # the list of the experiments to visualize the features for
+    - "horse_in_mud"
+    - "real_horse"
+  experiments_transform: # the list of the experiments used for calculating the principal components
+    - "horse_in_mud"
+    - "real_horse"

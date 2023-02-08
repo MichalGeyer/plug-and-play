@@ -1,0 +1,16 @@
+source_experiment_name: "horse_in_mud"  # the experiment name of the source image
+prompts: # text prompts for translations
+  - "a photo of a zebra in the snow"
+  - "a photo of a husky in the grass"
+#  - "a photo of a blue horse toy in playroom"
+scale: 7.5 # unconditional guidance scale. Note that a higher value encourages deviation from the source image
+num_ddim_sampling_steps: # if left empty, defaults to the ddim_steps arg used in the source experiment
+
+# Control the level of structure preservation with injection timestep threshold
+feature_injection_threshold: 40 # should be in [0, num_ddim_sampling_steps]
+
+# Control the level of deviation from the source image with Negative prompting params.
+negative_prompt: # if left blank, defaults to the source prompt
+negative_prompt_alpha: 0.75 # ∈ [0, 1], determines the initial strength of negative-prompting (lower = stronger)
+negative_prompt_schedule: "linear" # ∈ {"linear", "constant", "exp"}, determines the attenuation schedule of negative-prompting
+# setting negative_prompt_alpha = 1.0, negative_prompt_schedule = "constant" is equivalent to not using negative prompting
