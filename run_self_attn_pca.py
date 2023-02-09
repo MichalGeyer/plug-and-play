@@ -16,7 +16,7 @@ from ldm.models.diffusion.ddim import DDIMSampler
 
 def load_experiments_self_attn_maps(unet_model, feature_map_paths, block, t):
     self_attn_maps = []
-    block_idx = int(block[-1])
+    block_idx = int(block.split('_')[-1])
     for i, feature_map_path in enumerate(feature_map_paths):
         self_attn_q = torch.load(os.path.join(feature_map_path, f"{block}_self_attn_q_time_{t}.pt"))
         self_attn_k = torch.load(os.path.join(feature_map_path, f"{block}_self_attn_k_time_{t}.pt"))
