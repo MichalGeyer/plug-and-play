@@ -49,7 +49,7 @@ The path of this directory is specified in `configs/pnp/setup.yaml`, under the `
 
 For generating and extracting the features of an image, first set the parameters for the translation in a yaml config file.
 An example of extraction configs can be found in `configs/pnp/feature-extraction-generated.yaml` for generated images
-and in `configs/pnp/real-feature-extraction.yaml` for real images. Once the arguments are set, run:
+and in `configs/pnp/feature-extraction-real.yaml` for real images. Once the arguments are set, run:
 
 ```
 python run_features_extraction.py --config <extraction_config_path>
