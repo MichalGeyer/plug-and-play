@@ -31,7 +31,7 @@ conda activate pnp-diffusion
 
 ### Downloading StableDiffusion Weights
 
-Download the StableDiffusion weights from the [CompVis organization at HuggingFace](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)
+Download the StableDiffusion weights from the [CompVis organization at Hugging Face](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)
 (download the `sd-v1-4.ckpt` file), and link them:
 ```
 mkdir -p models/ldm/stable-diffusion-v1/
