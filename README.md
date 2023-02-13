@@ -2,7 +2,7 @@
 
 ## [<a href="https://pnp-diffusion.github.io/" target="_blank">Project Page</a>]
 
-[![arXiv](https://img.shields.io/badge/arXiv-PnP-b31b1b.svg)](https://arxiv.org/abs/2211.12572)
+[![arXiv](https://img.shields.io/badge/arXiv-PnP-b31b1b.svg)](https://arxiv.org/abs/2211.12572) [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/hysts/PnP-diffusion-features)
 
 ![teaser](assets/teaser.png)
 
