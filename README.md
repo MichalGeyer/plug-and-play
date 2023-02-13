@@ -14,7 +14,8 @@
 3. [Running PnP](#running-pnp)
 
 ## TODO:
-- [ ] Diffusers support
+- [ ] Diffusers support and pipeline integration
+- [ ] Gradio demo
 
 
 ## Setup
