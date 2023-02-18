@@ -149,7 +149,7 @@ def main():
         if exp_config.config.init_img != '':
             with open(os.path.join(outpath, "args.json"), "r") as f:
                 args = json.load(f)
-            callback_timesteps_to_save.append(args["save_feature_timesteps"])
+            callback_timesteps_to_save = args["save_feature_timesteps"] + callback_timesteps_to_save
 
     predicted_samples_path = os.path.join(outpath, "predicted_samples")
     feature_maps_path = os.path.join(outpath, "feature_maps")
