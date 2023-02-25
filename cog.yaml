@@ -1,0 +1,38 @@
+build:
+  gpu: true
+  cuda: "11.3"
+  python_version: 3.8
+  system_packages:
+    - libgl1-mesa-glx
+    - libglib2.0-0
+  python_packages:
+    - torch==1.13.0 --extra-index-url https://download.pytorch.org/whl/cu113
+    - torchvision==0.14.0 --extra-index-url https://download.pytorch.org/whl/cu113
+    - numpy==1.19.2
+    - albumentations==0.4.3
+    - diffusers
+    - opencv-python==4.1.2.30
+    - pudb==2019.2
+    - invisible-watermark
+    - imageio==2.9.0
+    - imageio-ffmpeg==0.4.2
+    - pytorch-lightning==1.4.2
+    - omegaconf==2.1.1
+    - test-tube==0.7.5
+    - streamlit>=0.73.1
+    - einops==0.3.0
+    - torch-fidelity==0.3.0
+    - transformers==4.19.2
+    - torchmetrics==0.6.0
+    - kornia==0.6
+    - scikit-learn==1.1.1
+  run:
+    - pip install --upgrade pip
+    - git clone https://github.com/CompVis/taming-transformers.git sub_modules/transformers
+    - pip install -e sub_modules/transformers
+    - git clone https://github.com/openai/CLIP.git sub_modules/CLIP
+    - pip install -e sub_modules/CLIP
+      # wget "https://github.com/DagnyT/hardnet/raw/master/pretrained/train_liberty_with_aug/checkpoint_liberty_with_aug.pth"
+
+
+predict: "predict.py:Predictor"
