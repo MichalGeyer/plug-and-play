@@ -1,4 +1,4 @@
-# Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation
+# Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation (CVPR 2023)
 
 ## [<a href="https://pnp-diffusion.github.io/" target="_blank">Project Page</a>]
 
