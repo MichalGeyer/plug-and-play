@@ -12,10 +12,12 @@
 1. [Setup](#setup)
 2. [Feature extraction](#feature-extraction)
 3. [Running PnP](#running-pnp)
+4. [TI2I Benchmarks](#ti2i-benchmarks)
 
 ## TODO:
 - [ ] Diffusers support and pipeline integration
 - [ ] Gradio demo
+- [x] Release TI2I Benchmarks
 
 
 ## Setup
@@ -120,3 +122,8 @@ python run_self_attn_pca.py --block "<visualization_module_name>" --experiment "
 ```
 
 The self-attention visualizations are saved under `<config.exp_path_root>/PCA_self_attention_vis/<experiment_name>` directory.
+
+
+## TI2I Benchmarks
+
+You can find the Wild-TI2I, ImageNetR-TI2I and ImageNetR-Fake-TI2I benchmarks in [this dropbox folder](https://www.dropbox.com/sh/8giw0uhfekft47h/AAAF1frwakVsQocKczZZSX6La?dl=0). The translation prompts and all the necessary configs (e.g. seed, generation prompt, guidance image path) are provided in a yaml file in each benchmark folder.
