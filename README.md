@@ -127,3 +127,14 @@ The self-attention visualizations are saved under `<config.exp_path_root>/PCA_se
 ## TI2I Benchmarks
 
 You can find the **Wild-TI2I**, **ImageNetR-TI2I** and **ImageNetR-Fake-TI2I** benchmarks in [this dropbox folder](https://www.dropbox.com/sh/8giw0uhfekft47h/AAAF1frwakVsQocKczZZSX6La?dl=0). The translation prompts and all the necessary configs (e.g. seed, generation prompt, guidance image path) are provided in a yaml file in each benchmark folder.
+
+
+## Citation
+```
+@article{pnpDiffusion2022,
+  title={Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation},
+  author={Tumanyan, Narek and Geyer, Michal and Bagon, Shai and Dekel, Tali},
+  journal={arXiv preprint arXiv:2211.12572},
+  year={2022}
+}
+```
