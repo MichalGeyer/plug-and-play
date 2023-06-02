@@ -131,10 +131,12 @@ You can find the **Wild-TI2I**, **ImageNetR-TI2I** and **ImageNetR-Fake-TI2I** b
 
 ## Citation
 ```
-@article{pnpDiffusion2022,
-  title={Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation},
-  author={Tumanyan, Narek and Geyer, Michal and Bagon, Shai and Dekel, Tali},
-  journal={arXiv preprint arXiv:2211.12572},
-  year={2022}
+@InProceedings{Tumanyan_2023_CVPR,
+    author    = {Tumanyan, Narek and Geyer, Michal and Bagon, Shai and Dekel, Tali},
+    title     = {Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {1921-1930}
 }
 ```
