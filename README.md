@@ -6,6 +6,17 @@
 
 ![teaser](assets/teaser.png)
 
+## Updates:
+
+**19/06/23** 🧨 Diffusers implementation of Plug-and-Play is available [here](https://github.com/MichalGeyer/pnp-diffusers).
+
+## TODO:
+- [ ] Diffusers support and pipeline integration
+- [ ] Gradio demo
+- [x] Release TI2I Benchmarks
+
+
+## Usage
 
 **To plug-and-play diffusion features, please follow these steps:**
 
@@ -13,11 +24,6 @@
 2. [Feature extraction](#feature-extraction)
 3. [Running PnP](#running-pnp)
 4. [TI2I Benchmarks](#ti2i-benchmarks)
-
-## TODO:
-- [ ] Diffusers support and pipeline integration
-- [ ] Gradio demo
-- [x] Release TI2I Benchmarks
 
 
 ## Setup
