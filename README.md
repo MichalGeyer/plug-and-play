@@ -6,7 +6,7 @@
 
 ![teaser](assets/teaser.png)
 
-## Updates:
+# Updates:
 
 **19/06/23** 🧨 Diffusers implementation of Plug-and-Play is available [here](https://github.com/MichalGeyer/pnp-diffusers).
 
